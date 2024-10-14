@@ -47,8 +47,8 @@ La **Búsqueda Secuencial**, también conocida como **Búsqueda Lineal**, es uno
 ### Ejemplo de Uso
 
 ```java
-int[] arreglo = {3, 8, 2, 5, 4};
-int valorBuscado = 4;
+int[] arreglo = { 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 };
+int valorBuscado = 50;
 int resultado = busquedaSecuencial(arreglo, valorBuscado);
 // resultado = 4 (índice donde se encuentra el valor)
 ```
@@ -90,8 +90,8 @@ La **Búsqueda Binaria** es un método de búsqueda eficiente que se utiliza en 
 ### Ejemplo de Uso
 
 ```java
-int[] arreglo = {3, 9, 10, 27, 38, 43, 82};
-int valorBuscado = 27;
+int[] arreglo = { 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 }};
+int valorBuscado = 40;
 int resultado = busquedaBinaria(arreglo, valorBuscado);
 // resultado = 3 (índice donde se encuentra el valor)
 ```
